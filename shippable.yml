@@ -15,4 +15,3 @@ after_success:
   
 after_failure:
   - echo "failure !!!"
-  - killall -9 node
