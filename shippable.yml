@@ -7,7 +7,7 @@ services:
   - selenium
   
 addons:
-  firefox: "27.0"
+  firefox: "31.0"
 
 before_script:
   - "export DISPLAY=:99.0"
