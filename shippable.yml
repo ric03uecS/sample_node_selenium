@@ -5,6 +5,9 @@ node_js:
   
 services:
   - selenium
+  
+addons:
+  firefox: "23.0"
 
 before_script:
   - "export DISPLAY=:99.0"
