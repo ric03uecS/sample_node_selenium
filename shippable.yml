@@ -6,8 +6,8 @@ node_js:
 services:
   - selenium
   
-addons:
-  selenium: "2.44"
+#addons:
+#  selenium: "2.44"
 
 before_script:
   - "export DISPLAY=:99.0"
